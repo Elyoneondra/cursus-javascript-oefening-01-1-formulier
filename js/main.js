@@ -11,6 +11,7 @@ function checkNumber() {
     var aei = document.getElementById("aantal_extra_inschrijvingen").value;
     if ( isNaN(aei) ) {
         document.getElementById("error_aei").removeAttribute("hidden");
+        document.getElementById("totaal_inschrijvingen").setAttribute("hidden", "hidden");
     }else {
         document.getElementById("error_aei" ).setAttribute("hidden", "hidden");
     }

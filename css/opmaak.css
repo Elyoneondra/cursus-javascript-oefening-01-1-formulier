@@ -1,0 +1,40 @@
+#divCookies {
+    padding: 5%;
+    background: rgba(46, 237, 202, 0.21);
+}
+
+#divHiddenCookieStatus {
+    display: none;
+}
+
+form {
+    width: 100%;
+}
+
+p.red {
+    font-weight: bold;
+    color: red;
+}
+
+p.green {
+    font-weight: bold;
+    color: green;
+}
+
+#totaal_inschrijvingen {
+    border: 3px solid green;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#aantal_inschrijvingen {
+    font-weight: bold;
+}
+
+.error {
+    border: 3px solid red;
+    padding: 5px;
+    margin-top: 10px;
+    /*text-align: center;*/
+}
